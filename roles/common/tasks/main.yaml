@@ -1,19 +1,19 @@
 - name: msg-1
   debug:
-    msg1: "hi from msg1"
+    msg: "hi from msg1"
 
 - name: msg-2
   debug:
-    msg1: "hi from msg2"
+    msg: "hi from msg2"
 
 - name: msg-3
   debug:
-    msg1: "hi from msg3"
+    msg: "hi from msg3"
 
 - name: msg-4
   debug:
-    msg1: "hi from msg4"
+    msg: "hi from msg4"
 
 - name: msg-5
   debug:
-    msg1: "hi from msg5"
+    msg: "hi from msg5"
