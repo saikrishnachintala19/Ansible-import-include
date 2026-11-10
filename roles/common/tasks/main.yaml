@@ -11,7 +11,7 @@
     msg: "hi from msg3"
 
 - name: msg-4
-  debugs:
+  debug:
     msg: "hi from msg4"
 
 - name: msg-5
