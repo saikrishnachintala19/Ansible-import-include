@@ -12,7 +12,7 @@
 
 - name: metioned new os dynamically use set-fact module
   set-fact:
-  - OS: "ROCKY"
+     OS: "ROCKY"
 
 - name: msg-4
   debug:
