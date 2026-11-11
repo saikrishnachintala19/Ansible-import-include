@@ -4,13 +4,13 @@
 
 - name: msg-2
   debug:
-    msg: "hi from msg2"
+    msg: "hi from msg2 {{ item }} "
   tags:
   - ho
 
 - name: msg-3
   debug:
-    msg: "hi from msg3"
+    msg: "hi from msg3 "
 
 # - name: metioned new os dynamically use set_fact module
 #   set_fact:
