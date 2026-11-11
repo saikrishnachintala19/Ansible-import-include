@@ -5,3 +5,6 @@
   when: OS == "CENTOS"
   tags:
   - ho
+  loop:
+  - ramesh
+  - suresh

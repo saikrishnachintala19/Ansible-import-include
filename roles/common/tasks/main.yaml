@@ -10,7 +10,7 @@
 
 - name: msg-3
   debug:
-    msg: "hi from msg3"
+    msg: "hi from msg3 {{ item }}"
 
 # - name: metioned new os dynamically use set_fact module
 #   set_fact:
