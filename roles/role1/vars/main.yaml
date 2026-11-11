@@ -1,2 +1,2 @@
-OS: "CENTOS"
-#OS: "ROCKY"
+#OS: "CENTOS"
+OS: "ROCKY"
