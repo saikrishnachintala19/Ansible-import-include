@@ -12,9 +12,9 @@
   debug:
     msg: "hi from msg3"
 
-- name: metioned new os dynamically use set_fact module
-  set_fact:
-     OS: "ROCKY"
+# - name: metioned new os dynamically use set_fact module
+#   set_fact:
+#      OS: "ROCKY"
 
 - name: msg-4
   debug:
