@@ -3,3 +3,5 @@
   include_role:
       name: common
   when: OS == "CENTOS"
+  tags:
+    ho
