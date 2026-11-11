@@ -5,6 +5,8 @@
 - name: msg-2
   debug:
     msg: "hi from msg2"
+  tags:
+  - ho
 
 - name: msg-3
   debug:
