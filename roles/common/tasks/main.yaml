@@ -10,6 +10,10 @@
   debug:
     msg: "hi from msg3"
 
+- name: metioned new os
+  vars:
+  - OS: "ROCKY"
+  
 - name: msg-4
   debug:
     msg: "hi from msg4"
