@@ -1,4 +1,5 @@
 - name: call common role
+  #import_role:
   include_role:
       name: common
   when: OS == "CENTOS"
