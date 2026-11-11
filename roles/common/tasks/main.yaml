@@ -10,10 +10,10 @@
   debug:
     msg: "hi from msg3"
 
-- name: metioned new os
-  vars:
+- name: metioned new os dynamically use set-fact module
+  set-fact:
   - OS: "ROCKY"
-  
+
 - name: msg-4
   debug:
     msg: "hi from msg4"
